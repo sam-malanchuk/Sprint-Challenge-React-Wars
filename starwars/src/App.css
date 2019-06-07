@@ -6,3 +6,25 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.container {
+  display: flex;
+  align-content: space-between;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.halfColumn {
+  padding: 0 5px;
+}
+
+.characters {
+  background-color: aliceblue;
+  width: 30%;
+  margin: 10px;
+}
