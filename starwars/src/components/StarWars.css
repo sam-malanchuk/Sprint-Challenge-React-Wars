@@ -1,0 +1,30 @@
+.character {
+    background-color: #3C4753;
+    width: 400px;
+    max-width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(228,229,230,0.3);
+  }
+  
+  .character h1 {
+    color: #E4E5E6;
+    font-family: 'Poller One', cursive;
+  }
+  
+  .columnContainer {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #35404C;
+    color: #8091a2;
+    height: 220px;
+  }
+  
+  .halfColumn {
+    padding: 0 5px;
+  }
+
+  a {
+      color: #E4E5E6;
+  }
